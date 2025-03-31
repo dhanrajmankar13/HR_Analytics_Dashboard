@@ -1,5 +1,6 @@
 # HR_Analytics_Dashboard
 #Objective
+
 The **HR Analytics AtliQ Dashboard** project aims to develop an interactive, data-driven dashboard that provides insights into various human resources metrics, allowing HR professionals and decision-makers to make informed decisions based on real-time data. The key objectives of this project include:
 
 1. **Data Visualization:** Create clear, visually engaging charts, graphs, and reports that present HR data (e.g., employee performance, attrition rates, recruitment metrics, diversity, and training) in an easily digestible format.
