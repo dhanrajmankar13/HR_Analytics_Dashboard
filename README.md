@@ -1,26 +1,100 @@
-# HR_Analytics_Dashboard
-#Objective
+# HR Analytics Dashboard (Power BI)
 
-The **HR Analytics AtliQ Dashboard** project aims to develop an interactive, data-driven dashboard that provides insights into various human resources metrics, allowing HR professionals and decision-makers to make informed decisions based on real-time data. The key objectives of this project include:
+## Project Overview
 
-1. **Data Visualization:** Create clear, visually engaging charts, graphs, and reports that present HR data (e.g., employee performance, attrition rates, recruitment metrics, diversity, and training) in an easily digestible format.
+This Power BI dashboard provides insights into employee attrition, workforce demographics, job satisfaction, and departmental performance. The dashboard helps HR teams identify trends and make data-driven decisions to improve employee retention.
 
-2. **Employee Insights:** Provide key metrics on employee performance, engagement, turnover, and satisfaction, enabling HR teams to identify trends and address issues proactively.
+---
 
-3. **Real-Time Data:** Ensure that the dashboard reflects up-to-date data, offering real-time insights on various HR metrics such as employee headcount, recruitment progress, and training outcomes.
+## Dashboard Preview
 
-4. **Predictive Analytics:** Incorporate predictive models that can forecast trends, such as turnover rates, hiring needs, and employee performance, helping HR make data-driven decisions for future planning.
+![HR Analytics Dashboard](Images/HR_Analytics_Dashboard.png)
 
-5. **Customizable Reports:** Allow users to customize the dashboard to track specific KPIs or metrics relevant to their role or department, making it adaptable for different HR functions.
+---
 
-6. **Employee Retention and Recruitment Strategies:** Help HR teams develop effective strategies by providing insights into employee retention, hiring trends, and areas that require attention for better talent management.
+## Key Metrics
 
-7. **Integration with HR Systems:** Ensure the dashboard integrates seamlessly with existing HR software systems (e.g., payroll, performance management, applicant tracking) to pull in relevant data without manual intervention.
+* Total Employees: 1470
+* Total Attrition: 237
+* Attrition Rate: 16.12%
+* Active Employees: 1233
+* Average Age: 37
+* Average Monthly Pay: 6503
 
-8. **User-Friendly Interface:** Design the dashboard with an intuitive interface that enables HR professionals, even those with limited technical expertise, to easily navigate and extract insights.
+---
 
-9. **Performance Tracking:** Track and evaluate key performance indicators (KPIs) such as productivity, training success, and employee satisfaction to support HR-driven initiatives and improve overall organizational effectiveness.
+## Dashboard Features
 
-10. **Data-Driven Decision-Making:** Enable HR leaders to make strategic, data-driven decisions based on a comprehensive overview of workforce analytics, optimizing talent management and improving employee satisfaction.
+### Employee Demographics
 
-The goal of the HR Analytics AtliQ Dashboard project is to empower HR departments with actionable insights, enabling better decision-making in areas like recruitment, employee retention, performance management, and workforce planning, while enhancing overall organizational effectiveness.
+* Age Group Analysis
+* Gender Distribution
+* Education Level Analysis
+
+### Attrition Analysis
+
+* Attrition by Age
+* Attrition by Job Role
+* Department-wise Attrition
+* Attrition by Education Field
+
+### Employee Satisfaction
+
+* Job Satisfaction Ratings
+* Role-wise Satisfaction Analysis
+
+### Interactive Filters
+
+* Gender
+* Marital Status
+* Travel Frequency
+* Education Level
+
+---
+
+## Tools Used
+
+* Power BI Desktop
+* Microsoft Excel
+* Data Visualization
+* DAX
+* Power Query
+
+---
+
+## Business Insights
+
+* Sales Representatives show the highest attrition rate.
+* Research Directors have the lowest attrition rate.
+* Most attrition occurs among employees aged 25–35.
+* Life Sciences and Medical backgrounds contribute the highest attrition counts.
+* The Sales department records significant employee turnover.
+
+---
+
+## Repository Structure
+
+```text
+Dashboard/
+Dataset/
+Images/
+Documentation/
+README.md
+```
+
+---
+
+## How to Use
+
+1. Download the repository.
+2. Open the `.pbix` file using Power BI Desktop.
+3. Refresh the dataset if required.
+4. Explore the interactive dashboard using slicers and filters.
+
+---
+
+## Author
+
+Dhanraj Mankar
+
+---
